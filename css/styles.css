@@ -81,6 +81,7 @@
 /*стилізація навігаціі контактів*/
 .contact-nav .link {
   color: #757575;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -137,28 +138,35 @@
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .feature-list .text {
   font-size: 14px;
-  line-height: 1.72px;
+  line-height: 1.72;
 }
 
 /*стилізація секції чим ми займаємося*/
 
 
 /*стилізація секції наша команда*/
-.team {background-color: #F5F4FA;}
-.team-list {background-color: #FFFFFF;}
+.team {
+  background-color: #F5F4FA;
+}
+
+.team-list {
+  background-color: #FFFFFF;
+}
+
 .team-list .title {
   color: var(--title-text-color);
-   font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+
 .team-list .text {
   font-size: 16px;
   line-height: 1.19;
@@ -178,7 +186,7 @@
 /*стилізація контактів футера*/
 .footer-list .link {
   color: rgba(255, 255, 255, 0.6);
-  
+
   font-size: 14px;
   line-height: 1.72;
   text-decoration: none;
@@ -198,7 +206,7 @@
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -219,7 +227,6 @@
   background-color: #2196f3;
 }
 
-.portfolio-list .text{
+.portfolio-list .text {
   font-size: 16px;
-    line-height: 30px;
-}
+  line-height: 1.88;
